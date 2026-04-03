@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고수의 홈페이지 따라만들기</title>
+    <title>투썸플레이스 / A TWOSOME PLACE</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Sunshiney&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="./js/jquery-1.12.4.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/custom.js"></script>
 </head>
 
@@ -24,64 +26,72 @@
             <div class="inner">
                 <h1>
                     <a href="/">
-                        <img src="./images/logo.png" alt="다름디자인">
+                        <img src="./images/logo_black_.svg" alt="투썸플레이스 로고">
                     </a>
                 </h1>
                 <nav class="gnb">
                     <ul>
                         <li>
-                            <a href="#">회사소개</a>
+                            <a href="#">투썸플레이스 소개</a>
                             <ul>
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
+                                <li><a href="#">투썸플레이스</a></li>
+                                <li><a href="#">연혁</a></li>
+                                <li><a href="#">BI</a></li>
+                                <li><a href="#">브랜드 스토리</a></li>
+                                <li><a href="#">광고영상</a></li>
+                                <li><a href="#">투썸 2.0</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">제품이야기</a>
+                            <ul>
+                                <li><a href="#">시그니처 메뉴</a></li>
 
                             </ul>
                         </li>
                         <li>
-                            <a href="#">사업소개</a>
+                            <a href="#">브랜드 지원</a>
                             <ul>
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
+                                <li><a href="#">어썸 페어링 플랜트</a></li>
+                                <li><a href="#">어썸 디저트 플랜트</a></li>
+                                <li><a href="#">C&D센터</a></li>
+                                <li><a href="#">SEP센터</a></li>
 
                             </ul>
                         </li>
                         <li>
-                            <a href="#">제품갤러리</a>
+                            <a href="#">디지털 서비스</a>
                             <ul>
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
+                                <li><a href="#">디지털 이야기</a></li>
+                                <li><a href="#">APP</a></li>
+                                <li><a href="#">멤버십</a></li>
+                                <li><a href="#">멤버십 소개브랜드</a></li>
+                                <li><a href="#">등급 및 혜택</a></li>
 
                             </ul>
                         </li>
                         <li>
-                            <a href="#">온라인문의</a>
+                            <a href="#">가맹점 창업안내</a>
                             <ul>
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
+                                <li><a href="#">가맹점 개설 안내</a></li>
+                                <li><a href="#">창업 설명회</a></li>
+                                <li><a href="#">온라인 창업 상담신청</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">가맹점 전용 금융상품</a></li>
 
                             </ul>
                         </li>
                         <li>
-                            <a href="#">고객지원</a>
+                            <a href="#">새 소식 & 공지</a>
                             <ul>
-                                <li><a href="#">인사말</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">채용</a></li>
                             </ul>
                         </li>
                     </ul>
+
                 </nav>
-                <div class="utils">
+                <div class="utlis">
                     <a href="#">
                         <i data-lucide="menu"></i>
                     </a>
@@ -90,14 +100,163 @@
         </header>
         <main>
             <section class="main_visual">
+                <div class="swiper main_visual_slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm itm01"></div>
+                        <div class="swiper-slide itm itm02"></div>
+                        <div class="swiper-slide itm itm03"></div>
+                    </div>
+                </div>
+
+
+
                 <div class="slg">
-                    <h2>Business Area 사업영역</h2>
-                    <p>다양한 산업에서 쌓아온 경험과 전문성을 바탕으로 고객에게 최적화된 맞춤형 솔루션을 제공합니다.</p>
+                    <h2>Premium Dessert Cafe</h2>
+                    <p>커피와 디저트가 함께하는 여유로운 순간, 투썸플레이스</p>
+                </div>
+
+                <div class="scroll-down">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <span class="text">SCROLL DOWN</span>
+                </div>
+            </section>
+
+            <section class="main_info">
+                <div class="title">
+                    <h2>Make Your Day Sweeter</h2>
+                    <p>소소한 순간을 특별하게 만드는 달콤한 한 잔</p>
+                </div>
+
+                <div class="inner">
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_info01.jpg" alt="apdlsdlvh">
+                        </div>
+                        <div class="txt_box">
+                            <strong>스초생은</strong>
+                            <p>Strawberry Chocolate Cake is</p>
+                            <a href="#" class="btn">더보기</a>
+                        </div>
+                    </div>
+
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_info02.jpg" alt="apdlsdlvh">
+                        </div>
+                        <div class="txt_box">
+                            <strong>겨울이</strong>
+                            <p>best enjoyed</p>
+                            <a href="#" class="btn">더보기</a>
+                        </div>
+                    </div>
+
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_info03.jpg" alt="apdlsdlvh">
+                        </div>
+                        <div class="txt_box">
+                            <strong>제철</strong>
+                            <p> in winter</p>
+                            <a href="#" class="btn">더보기</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="main_banner">
+                <div class="slg">
+                    <h2>Better Coffee, Better Dessert</h2>
+                    <p>당신의 하루를 더욱 특별하게 만드는 프리미엄 선택</p>
+                    <a href="#" class="btn">살펴보기</a>
+                </div>
+            </section>
+
+            <section class="main_last">
+                <div class="title">
+                    <h2>Delight in Every Moment</h2>
+                    <p>당신의 하루에 행복을 더하는 투썸플레이스</p>
+                </div>
+
+                <div class="inner">
+
+
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_last01.jpg" alt="떠먹는아박">
+                        </div>
+                        <div class="txt_box">
+                            <strong>Avocado Dessert Cake</strong>
+                            <p>다양한 맛을 떠먹어 보세요</p>
+                            <a href="#" class="btn">구매하러 가기</a>
+
+                        </div>
+                    </div>
+
+                    <div class="itm">
+                        <div class="img_box">
+                            <img src="./images/main_last02.jpg" alt="투썸라떼">
+                        </div>
+                        <div class="txt_box">
+                            <strong>Caramel Silk Latte</strong>
+                            <p>우유와 원두의 풍미</p>
+                            <a href="#" class="btn">구매하러 가기</a>
+
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer class="footer"></footer>
+
+        <footer class="footer">
+            <div class="inner">
+                &copy; 2026 TWOSOME PLACE.
+            </div>
+
+        </footer>
     </div>
+
+    <div class="floating-menu">
+        <a href="#" class="float-btn">
+            <span>기업 단체 구매</span>
+            <i data-lucide="gift"></i>
+
+        </a>
+        <a href="#" class="float-btn">
+            <span>협력업체 제안</span>
+            <i data-lucide="heart-handshake"></i>
+        </a>
+    </div>
+
+    <button type="button" id="top-btn" class="top-btn">
+        <i data-lucide="arrow-up"></i>
+    </button>
 </body>
+
+<script>
+    const topBtn = document.getElementById("top-btn");
+    const floatingMenu = document.querySelector(".floating-menu"); // 빨간 메뉴 박스 찾기
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            // 스크롤이 내려가면
+            topBtn.classList.add("show");      // 탑 버튼 나타나고
+            floatingMenu.classList.add("on");  // 빨간 메뉴는 위로 올라감
+        } else {
+            // 다시 맨 위로 올라오면
+            topBtn.classList.remove("show");   // 탑 버튼 사라지고
+            floatingMenu.classList.remove("on"); // 빨간 메뉴는 다시 제자리로
+        }
+    });
+
+    // 탑 버튼 클릭 시 부드럽게 위로 (기존 그대로 유지)
+    topBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+</script>
+
 
 </html>
